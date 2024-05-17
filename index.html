@@ -7,26 +7,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Candice's Calculator</h1>
-    <form action=""name="clc">
-        <input type="text" name="display" style="width: 370px; height: 70px; background-color:rgb(57, 171, 148);"><br>
-        <input class="btn" type="button" value="0">
-        <input class="btn" type="button" value="1">
-        <input class="btn" type="button" value="2">
-        <input class="btn" type="button" value="+" style="background-color: rgb(17, 99, 83);"><br>
-        <input class="btn" type="button" value="3">
-        <input class="btn" type="button" value="4">
-        <input class="btn" type="button" value="5">
-        <input class="btn" type="button" value="-" style="background-color: rgb(19, 123, 102);"><br>
-        <input class="btn" type="button" value="6">
-        <input class="btn" type="button" value="7">
-        <input class="btn" type="button" value="8">
-        <input class="btn" type="button" value="*" style="background-color: rgb(28, 177, 147);"><br>
-        <input class="btn" type="button" value="9">
-        <input class="btn" type="button" value="C" style="background-color: rgb(28, 197, 163);">
-        <input class="btn" type="button" value="=">
-        <input class="btnt" type="button" value="&#247;" style="background-color: rgb(33, 208, 173);">
+    <div id="container">
+        <h1>Candice's Calculator</h1>
+        <div class="calculater">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+                    <input type="button" value="CE">
+                    <input type="button" value="DE">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
+                </div>
+                <div>
+                    <input type="button" value="7">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
+                </div>
+                <div>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </div>
+                <div>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+">
+                </div>
+                <div>
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" value="=">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+<script src="./script/calculator.js">
 
-    </form>
+</script>
+    
 </body>
 </html>

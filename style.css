@@ -1,21 +1,14 @@
 body{
-    margin:0px;
+    margin:100px;
     padding: 0px;
-    /* background-color: lightblue;
-    color: darkblue; */
+    background-color: lightblue;
+    color: darkblue;
     text-align: center;
-    background-image: url(pexels-rodrigo-souza-1275988-2531709.jpg);
-    background-image: center;
-    background-repeat: no repeat;
-    background-size: cover;
-    height: 100vh;
 }
-
 h1{
     font-size: 45px;
     color: white;
 }
-
 input{
     width: 75px;
     height: 50px;
@@ -29,4 +22,6 @@ input{
 .btn:hover{
     background-color: rgb(35, 205, 157);
     cursor: pointer;
+    color: #fff;
+    margin: 10px;
 }
